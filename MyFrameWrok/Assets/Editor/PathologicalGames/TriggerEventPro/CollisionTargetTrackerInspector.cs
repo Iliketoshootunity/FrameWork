@@ -9,7 +9,7 @@
 using UnityEditor;
 using UnityEngine;
 using System.Collections;
-using PathologicalGames;
+using PoolUtil;
 
 
 [CustomEditor(typeof(CollisionTargetTracker)), CanEditMultipleObjects]

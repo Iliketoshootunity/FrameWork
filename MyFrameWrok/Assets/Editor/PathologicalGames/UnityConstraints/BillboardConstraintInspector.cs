@@ -1,5 +1,5 @@
 /// <Licensing>
-/// © 2011 (Copyright) Path-o-logical Games, LLC
+/// ?2011 (Copyright) Path-o-logical Games, LLC
 /// If purchased from the Unity Asset Store, the following license is superseded 
 /// by the Asset Store license.
 /// Licensed under the Unity Asset Package Product License (the "License");
@@ -11,7 +11,7 @@ using UnityEngine;
 using System.Collections;
 
 
-namespace PathologicalGames
+namespace PoolUtil
 {
 
     [CustomEditor(typeof(BillboardConstraint)), CanEditMultipleObjects]

@@ -10,7 +10,7 @@ using UnityEditor;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using PathologicalGames;
+using PoolUtil;
 
 
 [CustomEditor(typeof(EventInfoListStandalone)), CanEditMultipleObjects]
