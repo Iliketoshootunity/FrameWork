@@ -305,6 +305,44 @@
     <Compile Include="Assets\Scripts\DOUIFrameWork\Manager\SceneManager.cs" />
     <Compile Include="Assets\Scripts\DOUIFrameWork\Manager\UIManager.cs" />
     <Compile Include="Assets\Scripts\LetterSpacing.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\Common\Lib.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\Common\SelfDespawn.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\PoolManager\PoolManager.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\PoolManager\PreRuntimePoolItem.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\PoolManager\SpawnPool.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Area.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\AreaTargetTracker.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\CollisionTargetTracker.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\CompoundTargetTracker.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\EventFireController.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\EventTrigger.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Modifiers\AngleLimitModifier.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Modifiers\FireDistanceModifier.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Modifiers\IgnoreModifier.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Modifiers\IgnoreTagModifier.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Modifiers\LineOfSightModifier.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Modifiers\WaitForAlignmentModifier.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Targetable.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\TargetTrackerBase.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\TriggerEventPro.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\TriggerEventProMessenger.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Utilities\EffectsOnTargetsComponent.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Utilities\SetConstraintTarget.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\TriggerEventPro\Utilities\SpawnOnFire.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\BillboardConstraint.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\ConstraintBaseClass.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\ConstraintFrameworkBaseClass.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\LookAtBaseClass.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\LookAtConstraint.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\SmoothLookAtConstraint.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\SmoothTransformConstraint.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\TransformConstraint.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\TurntableConstraint.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\UnityConstraints.cs" />
+    <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\WorldTo2DCameraConstraint.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\PathologicalGames\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
