@@ -11,7 +11,7 @@ public class AssetBundleLoder : System.IDisposable
     {    
         string fullPath = LocalFileMgr.localFilePath + assetBundlepath;
         byte[] buffer = LocalFileMgr.Instance.GetBuffer(fullPath);
-        bundle = AssetBundle.CreateFromMemoryImmediate(buffer);
+        //bundle = AssetBundle.LoadFromMemory(buffer);
     }
     public void Dispose()
     {

@@ -292,6 +292,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Editor\AssetBundle\AssetBundleDAL.cs" />
+    <Compile Include="Assets\Editor\AssetBundle\AssetBundleEntitly.cs" />
+    <Compile Include="Assets\Editor\AssetBundle\AssetBundleWindow.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\Common\PGEditorUtils.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\PreRuntimePoolItemInspector.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\PoolManager\SpawnPoolInspector.cs" />
@@ -321,8 +324,11 @@
     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\TransformConstraintInspector.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\TurntableConstraintInspector.cs" />
     <Compile Include="Assets\Editor\PathologicalGames\UnityConstraints\WorldTo2DCameraConstraintInspector.cs" />
+    <Compile Include="Assets\Editor\ScriptCreatInit.cs" />
+    <Compile Include="Assets\Editor\Tools.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Editor\AssetBundle\AssetBundleConfig.xml" />
     <None Include="Assets\Scripts\PathologicalGames\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

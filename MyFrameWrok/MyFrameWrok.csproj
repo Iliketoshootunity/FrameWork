@@ -340,8 +340,19 @@
     <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\TurntableConstraint.cs" />
     <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\UnityConstraints.cs" />
     <Compile Include="Assets\Scripts\PathologicalGames\UnityConstraints\WorldTo2DCameraConstraint.cs" />
+    <Compile Include="Assets\Scripts\Roles\CameraCtrl.cs" />
+    <Compile Include="Assets\Scripts\Roles\RoleCtrl.cs" />
+    <Compile Include="Assets\Scripts\Test\BoxCtrl.cs" />
+    <Compile Include="Assets\Scripts\Test\StringUtil.cs" />
+    <Compile Include="Assets\Scripts\Test\TestScene.cs" />
+    <Compile Include="Assets\Scripts\Test\TestSceneManager.cs" />
+    <Compile Include="Assets\Scripts\Utils\AssetBundleLoaderAsync.cs" />
+    <Compile Include="Assets\Scripts\Utils\AssetBundleLoder.cs" />
+    <Compile Include="Assets\Scripts\Utils\AssetBundleMgr.cs" />
+    <Compile Include="Assets\Scripts\Utils\LocalFileMgr.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Editor\AssetBundle\AssetBundleConfig.xml" />
     <None Include="Assets\Scripts\PathologicalGames\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
